@@ -20,6 +20,7 @@ public class zapiska extends ActionBarActivity {
     ImageButton lol;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        System.out.println("");
 
 
         setContentView(R.layout.zapiska);
