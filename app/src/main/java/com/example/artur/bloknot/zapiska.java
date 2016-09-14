@@ -1,16 +1,11 @@
 package com.example.artur.bloknot;
 
-import android.app.ActionBar;
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 
 /**
@@ -20,8 +15,6 @@ public class zapiska extends ActionBarActivity {
     ImageButton lol;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        System.out.println("");
-
 
         setContentView(R.layout.zapiska);
         lol = (ImageButton) findViewById( R.id.btn1);
@@ -34,15 +27,6 @@ public class zapiska extends ActionBarActivity {
             }
         });
     }
-
-
-
-
-
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        getMenuInflater().inflate(R.menu.zapiska_menu, menu);
-//        return true;
-//    }
 
 
     private void showActionBar() {
